@@ -8,7 +8,7 @@ public class Calculator implements ICalculator {
 	}
 	 
 	public int subtraction(int a, int b) {
-		
+		int i = 0;
 	  	return a - b;
 	}
 	 
