@@ -13,7 +13,7 @@ public class Calculator implements ICalculator {
 	}
 	 
 	public int multiplication(int a, int b) {
-		 int i = 0;
+		 
 		return a * b;
 	}
 
