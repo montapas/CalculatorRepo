@@ -3,6 +3,8 @@ package com.cts.examples.cal;
 public class Calculator implements ICalculator {
 
 	public int sum(int a, int b) {
+		 String.format("%< is equals to %d", 2);   //Noncompliant; the argument index '<' refers to the previous format specifier but there isn't one
+		
 		return a + b;  
 		int i;
 	}
@@ -12,7 +14,6 @@ public class Calculator implements ICalculator {
 	}
 	 
 	public int multiplication(int a, int b) {
-		 String.format("%< is equals to %d", 2);   //Noncompliant; the argument index '<' refers to the previous format specifier but there isn't one
 		return a * b;
 	}
 
